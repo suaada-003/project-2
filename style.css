@@ -110,6 +110,9 @@ body {
     color: purple;
     background: rgba(221, 160, 221, 0.521);
 }
+.hero .btn:hover {
+    background: rgba(128, 128, 128, 0.356);
+}
 
 /* ================= Section Styling ================= */
 section {
@@ -123,7 +126,7 @@ section + section {
 section h1, section h2 {
   text-align: center;
   margin-bottom: 2rem;
-  color: #0d6efd;
+  color: rgba(128, 0, 128, 0.616);
 }
 
 /* ================= Services Section ================= */
@@ -135,7 +138,7 @@ section h1, section h2 {
 }
 
 .service-card {
-  background: #fff;
+  background: rgba(221, 160, 221, 0.356);
   padding: 2rem;
   border-radius: 15px;
   flex: 1 1 280px;
@@ -157,12 +160,19 @@ section h1, section h2 {
 
 .service-card h3 {
   margin-bottom: 0.8rem;
-  color: #2575fc;
+  color: rgba(128, 128, 128, 0.534);
 }
 
 .service-card p {
   font-size: 0.95rem;
   color: #555;
+}
+
+.services-preview .btn{
+    background: rgba(221, 160, 221, 0.541);
+}
+.services-preview .btn:hover{
+    background: grey;
 }
 
 /* ================= Client Logos ================= */
