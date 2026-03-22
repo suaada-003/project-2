@@ -37,7 +37,7 @@ body {
 }
 
 .navbar .nav-links li:last-child a {
-  background: plum;
+  background: rgba(128, 0, 128, 0.342);
   color: #fff;
   padding: 0.4rem 1.2rem;
   border-radius: 25px;
@@ -87,7 +87,7 @@ body {
   align-items: center;
   text-align: center;
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: url(https://img.freepik.com/premium-photo/light-bright-indigo-abstract-creative-background-design_851755-369657.jpg?semt=ais_hybrid&w=740&q=80);
   color: #fff;
   border-radius: 15px;
   margin: 2rem;
@@ -97,25 +97,18 @@ body {
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: rgba(128, 0, 128, 0.568);
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
   max-width: 700px;
 }
 
-.hero img {
-  max-width: 70%; /* reduced height */
-  height: auto;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  margin-top: 2rem;
-  transition: transform 0.3s;
-}
-
-.hero img:hover {
-  transform: scale(1.03);
+.hero .btn {
+    color: purple;
+    background: rgba(221, 160, 221, 0.521);
 }
 
 /* ================= Section Styling ================= */
