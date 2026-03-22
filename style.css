@@ -73,11 +73,11 @@ body {
 
 .navbar .nav-links a:hover::after {
   width: 100%;
-  color: #0d6efd;
+  color: plum;
 }
 
 .navbar .nav-links a:hover {
-  color: #0d6efd;
+  color: plum;
 }
 
 /* ================= Hero Section ================= */
