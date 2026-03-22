@@ -37,7 +37,7 @@ body {
 }
 
 .navbar .nav-links li:last-child a {
-  background: #0d6efd;
+  background: plum;
   color: #fff;
   padding: 0.4rem 1.2rem;
   border-radius: 25px;
@@ -46,7 +46,7 @@ body {
 }
 
 .navbar .nav-links li:last-child a:hover {
-  background: #0b5ed7;
+  background: plum;
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
@@ -67,7 +67,7 @@ body {
   height: 2px;
   left: 0;
   bottom: -3px;
-  background: #0d6efd;
+  background: plum;
   transition: width 0.3s;
 }
 
