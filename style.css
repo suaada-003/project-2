@@ -7,12 +7,16 @@
 }
 
 body {
+  margin: 0;
   background: #f8f9fa;
   color: #333;
   line-height: 1.6;
   padding-top: 70px; /* adjust to your navbar height */
 }
   
+html {
+  scroll-padding-top: 100px; /* prevents content going under navbar */
+}
 
 /* ================= Navbar ================= */
 .navbar {
@@ -20,26 +24,34 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  background: rgba(128, 128, 128, 0.342);
+
+  /* FIX: solid + slight transparency look */
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  border-radius: 8px;
+  border-radius: 0; /* removed to avoid weird edge overlap */
+
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
+/* LOGO */
 .navbar .logo img {
   max-height: 50px;
 }
 
+/* NAV LINKS */
 .navbar .nav-links {
   display: flex;
   list-style: none;
   gap: 2rem;
 }
 
+/* BUTTON LINK */
 .navbar .nav-links li:last-child a {
-  background: rgba(128, 0, 128, 0.342);
+  background: rgba(128, 0, 128, 0.7);
   color: #fff;
   padding: 0.4rem 1.2rem;
   border-radius: 25px;
@@ -53,6 +65,7 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
+/* NORMAL LINKS */
 .navbar .nav-links a {
   text-decoration: none;
   color: #495057;
@@ -62,6 +75,7 @@ body {
   transition: color 0.3s;
 }
 
+/* UNDERLINE EFFECT */
 .navbar .nav-links a::after {
   content: '';
   position: absolute;
@@ -75,12 +89,12 @@ body {
 
 .navbar .nav-links a:hover::after {
   width: 100%;
-  color: plum;
 }
 
 .navbar .nav-links a:hover {
   color: plum;
 }
+
 
 /* ================= Hero Section ================= */
 .hero {
