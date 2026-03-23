@@ -211,23 +211,71 @@ section h1, section h2 {
   flex-wrap: wrap;                 /* keeps it responsive */
 }
 
-/* ================= Client Logos ================= */
-.client-logos {
+/* ================= Client  ================= */
+/* CLIENTS SECTION */
+.clients {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.clients h1 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #222;
+}
+
+/* TESTIMONIALS CONTAINER */
+.testimonials {
+  max-width: 700px;
+  margin: auto;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.client-logos img {
-  max-width: 120px;
-  border-radius: 10px;
-  transition: transform 0.3s;
+/* EACH TESTIMONIAL */
+.testimonial-card {
+  text-align: center;
 }
 
-.client-logos img:hover {
-  transform: scale(1.1);
+/* QUOTE TEXT */
+.testimonial-card p:first-child {
+  font-size: 1.1rem;
+  color: #444;
+  font-style: italic;
+  line-height: 1.6;
+  position: relative;
 }
+
+/* ADD QUOTE SYMBOL */
+.testimonial-card p:first-child::before {
+  content: "“";
+  font-size: 2rem;
+  color: #007BFF;
+  margin-right: 5px;
+}
+
+.testimonial-card p:first-child::after {
+  content: "”";
+  font-size: 2rem;
+  color: #007BFF;
+  margin-left: 5px;
+}
+
+/* NAME */
+.testimonial-card h4 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #000;
+}
+
+/* ROLE */
+.testimonial-card p:last-child {
+  font-size: 0.9rem;
+  color: #777;
+}
+
 
 /* ================= Contact Form ================= */
 .contact form {
