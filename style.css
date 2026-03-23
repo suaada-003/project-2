@@ -240,14 +240,14 @@ section h1, section h2 {
 
 .contact input, .contact textarea {
   padding: 0.7rem;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 1px solid #ccc;
   width: 100%;
   transition: border-color 0.3s;
 }
 
 .contact input:focus, .contact textarea:focus {
-  border-color: #0d6efd;
+  border-color: plum;
   outline: none;
 }
 
