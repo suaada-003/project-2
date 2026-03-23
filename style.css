@@ -379,3 +379,9 @@ section {
   .hero h1 { font-size: 2rem; }
   .hero p { font-size: 1rem; }
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+}
