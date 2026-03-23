@@ -10,7 +10,9 @@ body {
   background: #f8f9fa;
   color: #333;
   line-height: 1.6;
+  padding-top: 70px; /* adjust to your navbar height */
 }
+  
 
 /* ================= Navbar ================= */
 .navbar {
@@ -127,6 +129,10 @@ section h1, section h2 {
   text-align: center;
   margin-bottom: 2rem;
   color: rgba(128, 0, 128, 0.616);
+}
+
+section {
+  scroll-margin-top: 90px;
 }
 
 /* ================= Services Section ================= */
